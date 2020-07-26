@@ -1,8 +1,4 @@
 # HTML-CSS
 
+![alt text](https://github.com/jv80/HTML-CSS/blob/master/media/Diagram.png)
 
-My favorite fruit list is a React application created from scratch using React, ReactDom, webpack, Babel, and ESLint.
-
-![alt text](https://github.com/jv80/React/blob/master/My%20favorite%20fruit%20list/Capture.PNG)
-### Workflow used
-![alt text](https://github.com/jv80/React/blob/master/My%20favorite%20fruit%20list/myFavoriteFruitList.png)
