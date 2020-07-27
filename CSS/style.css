@@ -1,0 +1,399 @@
+/* HTML rules
+--------------*/
+
+body{
+	
+	Background-color:#e9ebee;
+	font-family: "Amethysta-Regular"
+
+}
+
+
+
+h1{
+	
+	
+	text-align:center;
+	font-size: 60px;
+	font-family: "Amethysta-Regular";
+	
+}
+
+h2{
+	
+	
+	font-family: "Amethysta-Regular";
+	
+	
+}
+
+a {
+    text-decoration: none;
+	color:gray;
+	padding: 25px;
+	
+}
+
+table, tr, td{
+	
+	/*border: 1px solid black;*/
+	
+	
+}
+
+/* class rules
+--------------*/
+
+.hbar {
+    list-style: none;
+    padding-top: 20px;
+    width:560px;
+    }
+	
+ul.hbar li {
+	font-family: "Amethysta-Regular";
+    height: 30px;
+    color: black;
+    text-align: left;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+	border-radius: 6px;
+    }
+
+ul.hbar li.one {
+background: #42BDA5;
+width:100%;
+}
+ 
+ul.hbar li.two {
+background: #42BDA5;
+width:95%;
+}
+ 
+ul.hbar li.three {
+background: #42BDA5;
+width:93%;
+}
+ 
+ul.hbar li.four {
+background: #42BDA5;
+width:50%;
+}
+ 
+ul.hbar li.five {
+background: #42BDA5;
+width:65%;
+}
+ 
+ul.hbar li.six{
+background: #42BDA5;
+width:87%;
+}
+ 
+ul.hbar li.seven {
+background: #42BDA5;
+width:50%;
+}
+ 
+ul.hbar li.eight {
+background: #42BDA5;
+width:70%;
+}
+
+ 
+ul.hbar li.xaxis {
+background: url(../images/x-axis.jpg);
+height: 90px;
+}	
+	
+a.linkText{
+	
+	padding: 3px;
+	
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+	height: auto;
+    background-color: gray;
+    color: #fff;
+    text-align: justify;
+	font-size: 12px;
+    border-radius: 6px;
+    padding: 5px 0;
+	padding-right: 15px;
+	line-height: 120%;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+	
+.forms{
+	
+	margin-left: 10px;
+	
+	
+	
+}
+
+.resume{
+	
+	margin-left: 10px;
+	
+	
+	
+}	
+
+.gato{
+	
+	/*width: 700px;	*/
+	width: 100%;
+	
+}
+
+.progressbar{
+	
+	counter-reset: step;
+	
+	
+}
+
+.progressbar li{
+	
+	list-style-type:none;
+	float:center;
+	width: 100%;
+	position:relative;
+	text-align:center;
+	
+	
+}
+
+
+.progressbar li:before{
+	content: counter(step);
+	counter-increment:step;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	border: 2px solid #42BDA5;
+	display: block;
+	text-align:center;
+	margin: 0 auto 10px auto;
+	border-radius: 50%;
+	background-color: white;
+	
+}
+/*
+.progressbar li:after{
+	content: '';
+	position: absolute;
+	width:30%;
+	height:30px;
+	background-color: #ddd;
+	top: 150px;
+	left: -50%;
+	z-index: -1;
+	
+}
+
+.progressbar li:first-child:after{
+	
+	content: none;
+	
+	
+}
+*/
+.message{
+	
+	text-align:center;
+	font-style: italic;
+	
+}
+
+.active2{
+	
+	padding-right:-220px;
+	
+	
+}
+
+
+
+/* id rules
+---------------*/
+
+#wrapper{
+
+	width: 960px;
+	margin-left:300px;
+	background-color:white;/*#4CC3D9;*/
+	margin-top:15px;
+	display: inline-block;
+	position:relative;
+	
+	
+	
+	
+}
+
+#header{
+	
+	Background-color: white;/*#7BC8A4;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	border-style: solid;
+	font-style: italic;
+	border-width: 2px;
+	
+}
+
+#navigation {
+	
+	text-align: center;
+	text-decoration: none;
+	padding-bottom:10px;
+    
+	
+}
+
+
+
+#image {
+	
+	
+	
+	width:100px;
+	position: absolute;
+	display:inline-block;
+	left:1080px;
+	height: 100px;
+
+}
+#content{
+	
+	Background-color:white;
+	padding: 20px;
+	display:inline-block;
+	border-top-style: solid;
+    border-left: 35px solid;
+	border-color: white;
+	position: relative;
+	width: auto;
+}
+
+#complete{
+	
+	Background-color:white;
+	padding: 30px;
+	display:inline-block;
+	border-top-style: solid;
+    border-left: 150px solid;
+	border-color: white;
+	position: relative;
+	width: auto;
+
+}
+
+
+#text{
+	
+	text-align:justify;
+	
+}
+
+#img_profile{
+	
+	float: right;
+    margin: 0 0 10px 10px;
+    
+	
+	
+	
+}
+
+#workExperience{
+	
+	line-height: 5%;
+	padding-left:20px;
+	
+	border-radius: 25px;
+    border: 2px solid #42BDA5;
+    padding: 20px;
+    width: 180px;
+    height: 95px;
+	
+	
+	
+	
+}
+
+#workExperience1{
+	
+	line-height: 5%;
+	padding-left:20px;
+	padding-right: 5px;
+	border-radius: 25px;
+    border: 2px solid #42BDA5;
+    padding: 20px;
+    width: 180px;
+    height: 90px;
+	
+	
+	
+	
+}
+
+#contacts{
+
+     padding-left: 20px;
+	
+	
+}
+
+#myP{
+	
+	margin-left: 250px;
+	
+}
+
+#sitemap{
+	
+	
+	
+	
+	
+	
+
+}
+
+#footer{
+	
+	Background-color: white/*#FFC65D;*/
+	padding-top:20px;
+	padding-bottom:20px;
+	position:relative;
+	border-top-style: solid;
+	border-width: 2px;
+	font-size: 12px
+}
