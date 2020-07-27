@@ -1,6 +1,6 @@
 # HTML-CSS
 
-## Web Diagram
+## Web diagram
 ![alt text](https://github.com/jv80/HTML-CSS/blob/master/media/Diagram.png)
 
 ## Folder structure
