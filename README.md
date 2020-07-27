@@ -7,3 +7,4 @@ This website is created using HTML and CSS.
 
 ## Folder structure
 ![alt text](https://github.com/jv80/HTML-CSS/blob/master/media/FolderStructure.jpg)
+![alt text](https://github.com/jv80/HTML-CSS/blob/master/mywebpage.mp4)
