@@ -8,4 +8,4 @@ This website is created using HTML and CSS.
 ## Folder structure
 ![alt text](https://github.com/jv80/HTML-CSS/blob/master/media/FolderStructure.jpg)
 
-https://drive.google.com/file/d/17pr8yvg7pdJt-7BeqB9HyHTEcagvdrk7/view?usp=sharing
+
